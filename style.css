@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 33px;
+    gap: 20px;
+    background-color: whitesmoke;
+
+}
+
+.box1 {
+
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 33px;
+    padding: 20px;
+    max-width: 400px;
+
+
+}
+
+
+
+
+.box1 p {
+
+    margin-left: 27px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.logo img {
+
+   
+    width: 312px;
+    margin-top: 120px;
+    font-size: 35px;
+    margin-right: 85%;
+
+
+
+
+    
+
+
+
+
+}
+
+
+
+
+.box2 {
+    width: 400px;
+    margin-top: 44px;
+height: auto;
+    padding: 33px;
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    background-color: white;
+}
+
+
+.box2 .inputemail input {
+
+    padding: 15px;
+    font-size: 16px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 6px;
+    margin-left: 2px;
+    border: 1px solid 1px white;
+    opacity: 0.3;
+
+}
+
+.box2 .inputemail input:focus {
+    opacity: 0.9;
+    outline-color: #1877F2;
+
+}
+
+
+.box2 .inputpassword input {
+
+    padding: 15px;
+    font-size: 16px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 6px;
+    margin-left: 2px;
+    border: 1px solid 1px white;
+    opacity: 0.3;
+
+
+
+}
+
+
+.box2 .inputpassword input:focus {
+    opacity: 0.9;
+    outline-color: #1877F2;
+}
+
+
+.box2 .inputbtn button {
+    padding: 13px;
+    font-size: 20px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 6px;
+    margin-left: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #1877F2;
+    color: white;
+    border: none;
+
+
+
+}
+
+.forget {
+
+    text-align: center;
+    color: rgb(78, 78, 255);
+    cursor: pointer;
+    margin: 8px;
+}
+
+.forget:hover {
+    text-decoration: underline;
+
+
+
+}
+
+
+
+hr {
+    margin: 23px;
+
+
+}
+
+
+.input button {
+    font-size: 20px;
+    margin: 26px;
+    width: 225px;
+    border-radius: 6px;
+    margin-left: 51px;
+    cursor: pointer;
+    background: hsl(120, 76%, 46%);
+    color: white;
+    border: none;
+    padding: 13px;
+
+}
+
+
+.input button:hover {
+
+
+    background: #008000;
+    opacity: 0.9;
+}
+
+
+
+@media only screen and (max-width:661px){
+    body{
+
+
+display: flex;
+flex-direction: column;
+gap: 9px;
+
+
+
+
+    }
+
+
+.box1 {
+
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 33px;
+    padding: 20px;
+    max-width: 400px;
+
+
+}
+
+
+
+
+
+
+
+
+}

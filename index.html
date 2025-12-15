@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login page</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- main container -->
+    <div class="box1">
+        <div class="logo">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+
+
+        </div>
+        <p>Facebook helps you connect and share with the people in your life.</p>
+
+
+    </div>
+
+    <div class="box2">
+        <form onsubmit="luck(event)">
+            <div class="inputemail">
+
+                <input type="email" placeholder="Email address or phone number" maxlength="254" required id="email">
+
+
+            </div>
+
+
+            <div class="inputpassword">
+
+                <input type="password" placeholder="Password" maxlength="128" required id="password">
+
+
+
+            </div>
+
+
+
+
+            <div class="inputbtn">
+
+
+                <button>Log in</button>
+            </div>
+
+        </form>
+
+
+        <div class="forget">
+            <p>Forgotten password?</p>
+        </div>
+
+
+        <hr>
+
+
+        <div class="input">
+            <button>Create new account</button>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
